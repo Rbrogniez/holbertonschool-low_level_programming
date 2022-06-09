@@ -1,11 +1,11 @@
 #include <stdio.h>
 /* more headers goes there */
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Return: Always 0 (Success)
 */
-void print_alphabet(void) /*fonction*/
+void print_alphabet(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
