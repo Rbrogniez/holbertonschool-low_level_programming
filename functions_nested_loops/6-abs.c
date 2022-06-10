@@ -1,8 +1,8 @@
 /**
- * _abs - computes the absolute value of an integer
- * @n: the int to check
- * Return: the absolute value of int
- */
+* _abs - aboslute valor
+* @x: int defined
+* Return: valor
+*/
 #include "main.h"
 
 int _abs(int x)
