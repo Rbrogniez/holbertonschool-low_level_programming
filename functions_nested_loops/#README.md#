@@ -1,0 +1,13 @@
+Tasks
+0. _putchar
+mandatory
+Score: 100.00% (Checks completed: 100.00%)
+
+Write a program that prints _putchar, followed by a new line.
+
+    The program should return 0
+
+julien@ubuntu:~/$  gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-putchar.c -o 0-putchar
+julien@ubuntu:~/$ ./0-putchar 
+_putchar
+julien@ubuntu:~/$ 
