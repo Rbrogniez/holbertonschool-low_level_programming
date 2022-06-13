@@ -2,8 +2,8 @@
 #include <ctype.h>
 /**
  *int _isupper - checks for uppercase character
- *@c :
- *
+ *@c : variable charatere
+ *Return : returns 1 if c is uppercase returns 0 otherwise
  **/
 
 int _isupper(int c)
