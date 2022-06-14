@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul - multiplies two integers
+ *mul - multiplies two integers
  *@a:integral charatere
  *@b:integral charatere
  * Return : a*b
