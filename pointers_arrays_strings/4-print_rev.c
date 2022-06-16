@@ -10,9 +10,8 @@ void print_rev(char *s)
 	int c = 0;
 	int d;
 
-		while (s[c] != '\0')
+		while (s[c] != '\0'; c++)
 
-	{c++; }
 
 	for (d = c ; d >= 0; d--)
 	{
