@@ -8,15 +8,15 @@
 char *_strcpy(char *dest, char *src)
 {
 
-int i;
+int c;
 
 {
-for (i = 0; src[i] != '\0'; i++)
+for (c = 0; src[c] != '\0'; c++)
 {
-dest[i] = src[i];
+dest[c] = src[c];
 }
-dest[i] = '\0';
-return(dest);printf("String s2: %s", s2);
+dest[c] = '\0';
+return(dest);
 }
 
 }
