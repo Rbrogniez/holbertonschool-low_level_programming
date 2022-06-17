@@ -5,20 +5,20 @@
  *Return : the resulting string
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 
 {
-	int i;
+int i;
 
-	 for(i=0; str[i]!='\0'; i++)
-	{
+for (i = 0; s[i] != '\0'; i++)
+{
 
-	if(str[i]>='a' && str[i]<='z')
+if (s[i] >= 'a' && s[i] <= 'z')
 
-		{
-		str[i] = str[i] - 32;
-		}
-	}
+{
+s[i] = s[i] - 32;
+}
+}
 
-	return str;
+return (s);
 }
