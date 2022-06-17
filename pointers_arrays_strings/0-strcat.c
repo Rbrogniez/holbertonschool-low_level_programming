@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strcpy - function
+*_strcat - function
 *@dest: string
 *@src: dest string
 *Return: value of dest
