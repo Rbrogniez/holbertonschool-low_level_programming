@@ -1,10 +1,13 @@
 #include "main.h"
-/**_strncpy - function that copies a string
-*@dest: receive string copy of src
-*@src: sting copy in dest
-*@n: copy n bytes of src
-*Return: a pointer of variable dest string
-*/
+/**
+ * _strncpy - Copy the second string to the first with only n char
+ *
+ * @dest: The first string
+ * @src: The second string
+ * @n: The number of char copied
+ *
+ * Return: The copied string dest
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
