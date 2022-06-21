@@ -1,18 +1,25 @@
 #include "main.h"
 /**
-*_sqrt_result - function 2
+*_squretoot - function 2
 *Return: result
 *@y: test number
 *@x: number n
 */
 
-int squareroot(int n, int x)
+int _squareroot(int n, int x)
 
 {
 	if (n == x * x)
 	return (x);
-	return (squareroot(n, x + 1));
+	return (_squareroot(n, x + 1));
 }
+
+/**
+ * _sqrt_recursion - function
+ * @n:number in main
+ * Return: result
+ */
+
 int _sqrt_recursion(int n)
 
 {
@@ -22,7 +29,7 @@ int _sqrt_recursion(int n)
 	return (-1);
 	if (n == 1)
 	return (1);
-	return (squareroot(n, x));
+	return (_squareroot(n, x));
 }
 
 
