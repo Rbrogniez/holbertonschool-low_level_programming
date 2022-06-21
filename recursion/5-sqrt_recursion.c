@@ -11,6 +11,8 @@ int _squareroot(int n, int x)
 {
 	if (n == x * x)
 	return (x);
+	if (n < x * x)
+	return (-1);
 	return (_squareroot(n, x + 1));
 }
 
