@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*_squretoot - function 2
+*_squareroot - function 2
 *Return: result
-*@y: test number
-*@x: number n
+*@n: number
+*@x: number
 */
 
 int _squareroot(int n, int x)
@@ -16,7 +16,7 @@ int _squareroot(int n, int x)
 
 /**
  * _sqrt_recursion - function
- * @n:number in main
+ * @n:number
  * Return: result
  */
 
