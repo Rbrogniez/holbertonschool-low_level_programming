@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- *
- *@n:
-*Return:
- */
+*_sqrt_result - function 2
+*Return: result
+*@y: test number
+*@x: number n
+*/
 
 int squareroot(int n, int x)
 
 {
-	if (n == x*x)
+	if (n == x * x)
 	return (x);
-	return (squareroot(n,x+1));
+	return (squareroot(n, x + 1));
 }
 int _sqrt_recursion(int n)
 
