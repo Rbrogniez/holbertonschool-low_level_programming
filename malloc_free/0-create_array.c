@@ -17,6 +17,10 @@ for (i = 0; i < size; i++)
 {
 	tab[i] = c;
 }
+if (size == 0)
+{
+return(NULL);
+}
 
 return (tab);
 
