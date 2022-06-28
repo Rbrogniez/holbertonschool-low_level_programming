@@ -2,34 +2,27 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *create_array - creates an array of chars, and initializes it with a
- *specific char.
- *@size: unsigned int
- *@c: char
- *Return: Tab
+ * _calloc - allocates memory for an array.
+ * @nmemb: the number of elements.
+ * @size: the size of that element type.
+ * Return: A pointer to the allocated memeory. NULL if nmemb or size is 0.
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 
 {
+	char *mem;
+	unsigned int i;
 
-char *tab = malloc(size * sizeof(char));
-unsigned int i = 0;
-
-if (nmemb == 0 || size == 0)
+	if (size == 0 || nmemb == 0)
 		return (NULL);
 
+	mem = malloc(size * nmemb);
+	if (mem == NULL)
+		return (NULL);
 
-for (i = 0; i < size; i++)
-{
-	tab[i] = nmemb;
-}
-if (size == 0)
-{
-return (NULL);
-}
+	for (i = 0; i < (size * nmemb); i++)
+		mem[i] = 0;
 
-
-return (tab);
-
+	return (mem);
 }
