@@ -10,7 +10,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
 	size_t boucle;
-	if (!array || !size)
+	if (!array || !action)
 	return;
 
 	for (boucle = 0 ; boucle < size ; boucle++)
