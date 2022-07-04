@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - prints numbers, followed by a new line.
+ * print_strings - prints strings, followed by a new line.
  * @separator: separator of intreger
  * @n: number of intreger
  */
@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 		printf("%s", separator);
 		}
-		
+
 	}
 	printf("\n");
 	va_end(args);
