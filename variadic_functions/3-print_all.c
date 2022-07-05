@@ -21,6 +21,12 @@ void print_str(char *seperator, va_list args)
 {
 	char *str = va_arg (args, char*);
 
+	if(str == NULL)
+	{
+		printf("%s%s", seperator, "(nil)");
+		return;
+	}
+
 	printf("%s%s", seperator, str);
 }
 
