@@ -3,9 +3,9 @@
 /**
  * add_node - function that adds a new node at the beginning of a list_t list.
  *
- * @param head
- * @param str
- * @return list_t*
+ * @head: - head
+ * @str: - string
+ * Return: new
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -22,6 +22,5 @@ list_t *add_node(list_t **head, const char *str)
 	*head = new;
 
 	return (new);
-	
 }
 
