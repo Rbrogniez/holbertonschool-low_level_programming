@@ -2,9 +2,9 @@
 /**
  * @brief
  *
- * @param array
- * @param size
- * @param action
+ * @array:
+ * @size:
+ * @action:
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 

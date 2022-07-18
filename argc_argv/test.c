@@ -1,13 +1,18 @@
 #include <stdio.h>
 #include "main.h"
-/**
- * main - prints the number of arguments passed into it.
- * @argc: argument count
- * @argv: argument value
- * Return: success
- */
-int main(int argc, char *argv[])
-{
-	printf("%d\n", argc);
-	return (0);
-}
+
+int add (int x, int y)
+ {
+	return (x + y);
+ }
+int main ()
+ {
+	int a = 3;
+	int b = 2;
+
+	int result = add(a, b);
+
+	printf("%d\n", result);
+
+	return 0;
+ }

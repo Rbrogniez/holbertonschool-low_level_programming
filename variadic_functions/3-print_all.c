@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdarg.h>
-#include "variadic_functions.h"
+ #include "variadic_functions.h"
 
 void print_char(char *seperator, va_list args)
 {
@@ -14,7 +12,7 @@ void print_integrer(char *seperator, va_list args)
 
 void print_float(char *seperator, va_list args)
 {
-	printf("%s%f",seperator, va_arg(args, double));
+	printf("%s%f",passing argument 1 of ‘_put_s’ makes pointer from integer without a castseperator, va_arg(args, double));
 }
 
 void print_str(char *seperator, va_list args)
