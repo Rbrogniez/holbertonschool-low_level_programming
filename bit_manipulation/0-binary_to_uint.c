@@ -8,26 +8,25 @@
  */
 
 unsigned int binary_to_uint(const char *b)
-{
-	char *t;
-	unsigned int n = 0;
-	unsigned int i = 1;
 
-	if (!b)
+{
+	unsigned int num = 0, multiplicator = 1;
+	int len;
+
+	if (b == 0)
 		return (0);
 
-	t = (void *)b;
-	while (*t)
-		t++;
-	t--;
+	for (len = 0; b[len];)
+		len++;
 
-	for (i = 1; *t; t--, i *= 2)
+	for (len -= 1; len >= 0; len--)
 	{
-		if (*t != '0' && *t != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
-		if (*t == '1')
-			n += i;
+
+		num += (b[len] - '0') * multiplicator;
+		multiplicator *= 2;
 	}
 
-	return (n);
+	return (num);
 }
