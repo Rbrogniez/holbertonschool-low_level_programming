@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * listint_len - Count the number of elements in a listint_t list
+ * dlistint_len - Count number of node
  *
- * @h: Head of the list
- * Return: Number of elements
+ * @h: head of the list
+ * Return: Size
  */
 
 size_t dlistint_len(const dlistint_t *h)
