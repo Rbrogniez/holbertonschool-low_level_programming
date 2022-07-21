@@ -1,9 +1,10 @@
 #include "lists.h"
 #include <stdio.h>
+
 /**
- * @brief
- *
- *
+ * print_dlistint - print double linked list.
+ * @h: head of the list.
+ * Return: size of the list.
  */
 
 size_t print_dlistint(const dlistint_t *h)
@@ -19,7 +20,7 @@ size_t print_dlistint(const dlistint_t *h)
 		i++;
 	}
 
-	return(i);
+	return (i);
 }
 
 
